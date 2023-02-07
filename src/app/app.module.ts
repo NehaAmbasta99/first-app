@@ -10,6 +10,13 @@ import { CustomerFormComponent } from './customer-form/customer-form';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { ButtonComponent } from './button/button.component';
+import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
 const oktaConfig = {
   issuer: 'https://{yourOktaDomain}/oauth2/default',
@@ -24,7 +31,14 @@ const oktaConfig = {
     SuccessAlertComponent,
     WarningAlertComponent,
     CustomerFormComponent,
-    ButtonComponent
+    ButtonComponent,
+    HeaderComponent,
+    RecipesComponent,
+    ShoppingListComponent,
+    RecipeDetailComponent,
+    RecipeListComponent,
+    RecipeItemComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,

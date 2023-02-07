@@ -4,3 +4,6 @@ customer-form{
     font-size: 14px;
     color: #333;
     height: 200px;}
+    recipes,shopping-list{
+        display: block;
+    }
