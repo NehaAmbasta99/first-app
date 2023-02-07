@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+body{
+    margin:0;
+    box-sizing: border-box;
+    --scroll-y: 0px;
+    font-family: Roboto,sans-serif;
+}
+@media (min-width:1200px){
+    body{ 
+        width: 1450px;
+        padding:40px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

@@ -1,0 +1,6 @@
+<span>
+    <button class="btn btn-primary" *ngIf="!isAuthenticated" (click)="login()"> Login </button>
+    <button class="btn btn-primary" *ngIf="isAuthenticated" (click)="logout()"> Logout </button>
+  </span>
+  <li><a routerLink="/customer-form" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a></li>
+  <router-outlet></router-outlet>

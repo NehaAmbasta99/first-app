@@ -1,0 +1,40 @@
+.container{
+    align-items: right;
+    display:inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 500px;
+    background-color: whitesmoke;
+    width:50%;
+}
+.container-title{
+    padding-left:10px;
+}
+.customer-form-container{
+    padding:20px;
+}
+
+.btn{
+    color:white;
+    background-color:blueviolet;
+    padding:5px;
+    margin-top:5px;
+    display: block;
+    align-content: center;
+    border-radius:5px;
+    border:none;
+    text-align: center;
+    font-weight:600;
+}
+.right-image{
+    width:48%;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    height:500px;
+}
+.right-image img{
+    object-fit: fill;
+    height: 500px;
+}
