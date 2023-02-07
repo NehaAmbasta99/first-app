@@ -1,0 +1,2 @@
+<button [ngClass]="success?'btn btn-primary':'btn btn-danger'" (click)="submit()">{{btnName}}</button>
+<p *ngIf="success" [ngStyle]="{color:'white', backgroundColor:'black'}">Click the above button</p>

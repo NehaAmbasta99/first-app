@@ -7,8 +7,7 @@
     <span>Customer Form</span>
 
     <input type="text" [(ngModel)]="firstname" />
-    <button name="submit" (click)="submitCustomerDetails()" class="btn btn-primary">Submit</button>
-
+    <custom-btn></custom-btn>
     <div [ngStyle]="{backgroundColor:getColor()}" *ngIf="showData">
         <hr/>
         <h5>Customer Details are Submitted:</h5>
@@ -17,8 +16,6 @@
     </div>
 </div>
 </div>
-
-
 
 <div *ngIf="!showData" class="right-image">
     <img src="../../assets/images/customer-service.jpg" class="right-banner"/>

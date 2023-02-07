@@ -9,6 +9,7 @@ import { WarningAlertComponent } from './WarningAlert/WarningAlert.component';
 import { CustomerFormComponent } from './customer-form/customer-form';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 import { AppRoutingModule } from './app-routing.module';
+import { ButtonComponent } from './button/button.component';
 
 const oktaConfig = {
   issuer: 'https://{yourOktaDomain}/oauth2/default',
@@ -23,6 +24,7 @@ const oktaConfig = {
     SuccessAlertComponent,
     WarningAlertComponent,
     CustomerFormComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
