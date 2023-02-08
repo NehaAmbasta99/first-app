@@ -1,0 +1,24 @@
+.navbar{
+    padding: 1.2rem 0;
+    box-shadow: none;
+    z-index: auto;
+}
+button{
+    background-color: transparent;
+    border-color: #6E07F3;
+}
+.navbar button{
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1.2rem;
+}
+.form-check-input:checked{
+    background-color: #6E07F3;
+    border-color: #6E07F3;
+}
+.form-check-input:focus{
+    border-color: #0f162c;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #0f162c;
+}

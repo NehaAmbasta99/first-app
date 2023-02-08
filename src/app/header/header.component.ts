@@ -7,7 +7,12 @@ import { Component } from "@angular/core";
 })
 export class HeaderComponent{
     title="";
+    collapsed = true;
+    isLightTheme = true;
     constructor(){
         this.title="Header";
+    }
+    changeTheme(){
+        this.isLightTheme = !this.isLightTheme;
     }
 }

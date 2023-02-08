@@ -1,22 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-.green{
-    color:green;
+
+.bg-secondary-color{
+    background-color:#ccf381;
 }
-.red{
-    color:red;
+/* Light Theme */
+.light-theme.bg-primary-color{
+        background-color: #6a05ec;
 }
-body{
-    margin:0;
-    box-sizing: border-box;
-    --scroll-y: 0px;
-    font-family: Roboto,sans-serif;
+.light-theme .text-primary-color{
+    color:#ccf381;
 }
-@media (min-width:1200px){
-    body{ 
-        width: 1450px;
-        padding:40px;
-        margin-left:auto;
-        margin-right:auto;
-    }
+
+/* Dark theme */
+.dark-theme.bg-primary-color{
+    background-color: #0f162c;
+}
+.dark-theme .text-primary-color{
+    color:white;
 }
